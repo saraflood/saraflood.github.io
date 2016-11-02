@@ -1,7 +1,14 @@
 body {
-	background-color: #c49a6c
+	background-color: #f79d8e
 }
 
 h1, p {
-	color: #594a42;
+	color: #ffffff;
+	font-family: helvetica
 }
+
+li {
+	color: #5d5d5d;
+	font-family: helvetica
+}
+
