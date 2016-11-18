@@ -1,0 +1,102 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+main {
+	background: url(../images/macarons.jpeg); 
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+body {
+	color: #7D7D7D;
+	font-family: sans-serif;
+	line-height: 1.5;
+}
+
+h1 {
+	color: #fff;
+	font-size: 60px;
+	font-weight: normal;
+	text-align: center;
+}
+
+h2 {
+	color: #7D7D7D;
+	font-weight: normal;
+	padding-top: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+h3 {
+	color: #7D7D7D;
+	padding-top: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+	font-weight: normal;
+	font-size: 14px;
+	text-transform: uppercase;
+}
+
+p {
+	font-size: 12px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+a {
+	color: #fff;
+	text-decoration: none;
+}
+
+
+ul {
+	list-style-type: disc;
+	color: #7D7D7D;
+	padding-left: 40px;
+	font-size: 12px;
+}
+
+section {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+footer {
+	background-color: #333;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	text-align: center;
+}
+
+
+.quote {
+	color: #fff;
+	background-color: #333;
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	font-weight: normal;
+}
+
+.quote p {
+	font-size: 20px;
+}
+
+/*.quote h3 {
+	font-size: 12px;
+}*/
+
+#slogan {
+	color: #fff;
+	font-size: 30px;
+	text-align: center;	
+	padding-bottom: 20px;
+}
+
+#cookie {
+	padding-top: 0;
+	padding-bottom: 0;
+}
