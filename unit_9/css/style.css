@@ -1,0 +1,330 @@
+	@import url('https://fonts.googleapis.com/css?family=Josefin+Sans|Pacifico');
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+header {
+	background: url(../images/ice-cream.jpg); 
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+
+nav a {
+	height: 3em;
+	text-transform: uppercase;
+	text-align: center;
+	padding: 0 2em;
+	letter-spacing: 1px;
+}
+
+aside {
+	float: right;
+}
+
+
+figure {
+	float: left;
+	margin: 2em 0;
+}
+
+body {
+	color: #7D7D7D;
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 16px;
+	line-height: 1.5;
+}
+
+p {
+	padding: .125em 1.25em;
+}
+
+article p {
+	padding: 0.5em 0;
+}
+
+h1 {
+	font-family: 'Pacifico', cursive;
+	font-size: 9em;
+	color: #0ea0af;
+	font-weight: normal;
+	text-align: center;
+	margin: 1em 0 0;
+}
+
+h2,
+h3 {	
+	font-family: 'Josefin Sans', sans-serif;
+	color: #0ea0af;
+}
+
+h2 {
+	font-weight: normal;
+	padding: 1.25em 1.25em 0;
+	font-size: 1.75em;
+}
+
+h3 {
+	padding: 1.25em 1.25em 0;
+	font-size: 1em;
+	text-transform: uppercase;
+	letter-spacing: 0.5px;
+}
+
+a {
+	color: #fff;
+	text-decoration: none;
+}
+
+/*Link Visted Hover Active*/
+
+a:hover {
+	color: #53aeb3;
+}
+
+ul {
+	list-style-type: disc;
+	color: #7D7D7D;
+	padding-left: 2.5em;
+}
+
+
+footer{
+	background-color: #333;
+	padding: 2em 0;
+	border-top: 2px solid white;
+	height: 5em;
+}
+
+footer a {
+	color: #fff;
+	float: left;
+	padding: 0 2.5em;
+}
+
+footer p {
+	color: #fff;
+	float: right;
+	padding: 0 2.5em;
+}
+
+label {
+	height: 3em;
+	text-transform: uppercase;
+	text-align: center;
+	padding: 0 2em;
+	letter-spacing: 1px;
+	color: #fff;
+	display: none;
+}
+
+.clearfix:after {
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+ }
+
+.column {
+	float: left;
+	width: 23%;
+	margin: 1%;
+}
+
+#wrapper {
+	margin: 0 auto;
+	max-width: 1800px;
+}
+
+#navlinks {
+	background-color: #333;
+	text-align: center;
+	padding: 1em;
+}
+
+#toggle {
+	display: none;
+}
+
+#hero {
+	min-height: 15em;
+	padding: 2em 0;
+}
+
+#slogan {
+	color: #fff;
+	background-color: #0ea0af;
+	font-size: 1.5em;
+	text-align: center;	
+	text-transform: uppercase;
+	letter-spacing: 0.25em;
+	padding: 0.5em;
+	width: 16em;
+	margin: 2em auto;
+}
+
+#about {
+	float: left;
+	width: 66.3%;
+}
+
+#about p {
+	padding: .5em 2.5em;
+}
+
+#contact {
+	float: right;
+	width: 31.7%;
+	padding: 1.25em 0;
+}
+
+#gallery1 img {
+	width: 66.3%;
+	float: left;
+	margin: 2% 0 0 0;
+}
+
+#gallery2 img {
+	width: 31.7%;
+	float: left;
+	margin: 2% 0 0 2%;
+}
+
+#column4 {
+	font-style: italic;
+	padding: .5em 1em;
+}
+
+#cookie {
+	background: url(../images/cookies.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	min-height: 300px;
+	padding: 1em;
+}
+
+
+#quote {
+	color: #fff;
+	background-color: #333;
+	text-align: center;
+	padding: 1.25em;
+	font-weight: normal;
+	width: 50%;
+	margin: 2em auto;
+}
+
+#quote p {
+	font-size: 1.5em;
+}
+
+#quote h3 {
+	color: #ccc;
+}
+
+@media screen and (max-width: 800px) {
+
+
+	h1 {
+		font-size: 7em;
+		margin: .25em 0 0;
+	}
+
+	label {
+		height: 2em;
+		padding: 0.5em;
+	}
+
+	#slogan {
+		font-size: 1.25em;
+		margin: 2em auto;
+	}
+
+	#column1, #column2, #column3 {
+		width: 31.3333%;
+		margin: 1%;
+	}
+
+	#column4 {
+		float: left;
+		display: block;
+		width: 100%;
+		margin: 3%;
+	}
+}
+
+@media screen and (max-width: 596px) {
+
+
+	nav a {
+		display: none;
+	}
+
+	label {
+		display: block;
+	}
+
+	#toggle:checked + nav a {
+		display: block;
+		padding: 1.5em;
+	}
+
+}
+
+@media screen and (max-width: 488px) {
+
+
+	h1 {
+	font-size: 5em;
+	margin: 0;
+	}
+
+	h2, p {
+	padding: 1em 1.25em 0;
+	}
+
+	#hero {
+		min-height: 4em;
+		max-width: 488px;
+	}
+
+	#slogan {
+		font-size: 1em;
+	}
+
+	#about {
+		width: 100%;
+	}
+
+	#contact {
+		float: left;
+		width: 100%;
+		margin: 0 4%;
+	}
+
+	#gallery1 img {
+		width: 100%;
+		margin: 1% 0;
+	}
+
+	#gallery2 img {
+		width: 100%;
+		margin: 1% 0;
+	}
+
+	#column1, #column2, #column3, #column4 {
+		width: 100%;
+	}
+
+	#column4 {
+		margin: 0 4%;
+	}
+
+	#cookie {
+		display: none;
+	}
+}
